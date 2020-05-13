@@ -1,6 +1,5 @@
 package com.example.demo.controller;
 
-import com.example.demo.model.Salary;
 import com.example.demo.service.ISalaryService;
 import com.example.demo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,7 +30,7 @@ public class SalaryController {
     private UserService userService;
 
     /**
-     * 获取收入账单
+     * 获取所有账单
      * @param model
      * @return
      */

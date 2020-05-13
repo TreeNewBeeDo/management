@@ -11,10 +11,22 @@ import java.util.List;
  */
 public interface ISalaryService {
     /**
-     * 获取收入账单列表
+     * 获取账单列表
      * @return
      */
     public List<Salary> getSalary();
+
+    /**
+     * 获取本月总收入
+     * @return
+     */
+    public double getSalaryIncome();
+
+    /**
+     * 获取本月总支出
+     * @return
+     */
+    public double getSalaryPayOut();
 
     /**
      * 根据状态值获取对应类型的数量

@@ -375,62 +375,52 @@ public class SalaryExample {
             return (Criteria) this;
         }
 
-        public Criteria andTotalEqualTo(String value) {
+        public Criteria andTotalEqualTo(Double value) {
             addCriterion("total =", value, "total");
             return (Criteria) this;
         }
 
-        public Criteria andTotalNotEqualTo(String value) {
+        public Criteria andTotalNotEqualTo(Double value) {
             addCriterion("total <>", value, "total");
             return (Criteria) this;
         }
 
-        public Criteria andTotalGreaterThan(String value) {
+        public Criteria andTotalGreaterThan(Double value) {
             addCriterion("total >", value, "total");
             return (Criteria) this;
         }
 
-        public Criteria andTotalGreaterThanOrEqualTo(String value) {
+        public Criteria andTotalGreaterThanOrEqualTo(Double value) {
             addCriterion("total >=", value, "total");
             return (Criteria) this;
         }
 
-        public Criteria andTotalLessThan(String value) {
+        public Criteria andTotalLessThan(Double value) {
             addCriterion("total <", value, "total");
             return (Criteria) this;
         }
 
-        public Criteria andTotalLessThanOrEqualTo(String value) {
+        public Criteria andTotalLessThanOrEqualTo(Double value) {
             addCriterion("total <=", value, "total");
             return (Criteria) this;
         }
 
-        public Criteria andTotalLike(String value) {
-            addCriterion("total like", value, "total");
-            return (Criteria) this;
-        }
-
-        public Criteria andTotalNotLike(String value) {
-            addCriterion("total not like", value, "total");
-            return (Criteria) this;
-        }
-
-        public Criteria andTotalIn(List<String> values) {
+        public Criteria andTotalIn(List<Double> values) {
             addCriterion("total in", values, "total");
             return (Criteria) this;
         }
 
-        public Criteria andTotalNotIn(List<String> values) {
+        public Criteria andTotalNotIn(List<Double> values) {
             addCriterion("total not in", values, "total");
             return (Criteria) this;
         }
 
-        public Criteria andTotalBetween(String value1, String value2) {
+        public Criteria andTotalBetween(Double value1, Double value2) {
             addCriterion("total between", value1, value2, "total");
             return (Criteria) this;
         }
 
-        public Criteria andTotalNotBetween(String value1, String value2) {
+        public Criteria andTotalNotBetween(Double value1, Double value2) {
             addCriterion("total not between", value1, value2, "total");
             return (Criteria) this;
         }

@@ -37,6 +37,32 @@ public class SalaryServiceImpl implements ISalaryService {
     }
 
     /**
+     * 获取总收入
+     * @return
+     */
+    @Override
+    public double getSalaryIncome() {
+        double salaryIncome = 0;
+        SalaryExample salaryExample = new SalaryExample();
+        SalaryExample.Criteria criteria = salaryExample.createCriteria();
+        criteria.andStatusEqualTo(1);
+        List<Salary> salaryList = salaryMapper.selectByExample(salaryExample);
+        for (Salary salary : salaryList){
+            salaryIncome += salary.getTotal();
+        }
+        return salaryIncome;
+    }
+
+    /**
+     * 获取总支出
+     * @return
+     */
+    @Override
+    public double getSalaryPayOut() {
+        return 0;
+    }
+
+    /**
      * 根据状态值的不同获取不同账目类型的数量
      * @param status
      * @return
@@ -51,16 +77,6 @@ public class SalaryServiceImpl implements ISalaryService {
         return counts;
     }
 
-//    /**
-//     * 获取支出账单列表
-//     * @return
-//     */
-//    @Override
-//    public List<Salary> getSalaryPay() {
-//        SalaryExample salaryExample = new SalaryExample();
-//
-//        return null;
-//    }
 
     /**
      * 通过id查询

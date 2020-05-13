@@ -63,7 +63,7 @@ public class MainController {
     //登录跳转
     @GetMapping("/login")
     public String login(){
-        return "userLogin";
+        return "login";
     }
 
     /**
@@ -90,7 +90,7 @@ public class MainController {
     public String loginError(Model model){
         model.addAttribute("loginError",true);
         model.addAttribute("errorMsg","登录失败，账户或密码错误");
-        return "/userLogin";
+        return "/login";
     }
 
     /*

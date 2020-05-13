@@ -11,7 +11,7 @@ public class Salary {
 
     private String content;
 
-    private String total;
+    private Double total;
 
     private Date createTime;
 
@@ -55,12 +55,12 @@ public class Salary {
         this.content = content == null ? null : content.trim();
     }
 
-    public String getTotal() {
+    public Double getTotal() {
         return total;
     }
 
-    public void setTotal(String total) {
-        this.total = total == null ? null : total.trim();
+    public void setTotal(Double total) {
+        this.total = total;
     }
 
     public Date getCreateTime() {

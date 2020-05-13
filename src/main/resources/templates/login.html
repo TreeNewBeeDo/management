@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Mosaddek">
+    <meta name="keyword" content="FlatLab, Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+    <link rel="shortcut icon" href="img/favicon.png">
+<!--    <link rel="stylesheet" type="text/css" href="users/css/login.css">-->
+    <title>良艺修理日常管理系统登录</title>
+    <!-- Bootstrap core CSS -->
+    <link href="admins/css/bootstrap.min.css" rel="stylesheet">
+    <link href="admins/css/bootstrap-reset.css" rel="stylesheet">
+    <!--external css-->
+    <link href="admins/assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="admins/css/style.css" rel="stylesheet">
+    <link href="admins/css/style-responsive.css" rel="stylesheet" />
+
+</head>
+
+<body class="login-body">
+
+
+<div class="container">
+
+    <form class="form-signin" th:action="@{/login}" method="post" id="form_login">
+        <h2 class="form-signin-heading">良艺日常管理系统</h2>
+        <div class="login-wrap">
+            <input type="text" name="username" class="form-control" placeholder="User ID" autofocus>
+            <input type="password" name="password" class="form-control" placeholder="Password">
+
+            <div th:if="${loginError}">
+                <p style="color: red;font-size: 20px" th:text="${errorMsg}"></p>
+            </div>
+            <label class="checkbox">
+                <input type="checkbox" value="remember-me"> 记住我
+            </label>
+            <button class="btn btn-lg btn-login btn-block" type="submit">登录</button>
+            <!-- 注册功能 -->
+            <!-- <div class="registration">
+                Don't have an account yet?
+                <a class="" href="registration.html">
+                    Create an account
+                </a>
+            </div> -->
+        </div>
+    </form>
+</div>
+
+<!-- js placed at the end of the document so the pages load faster -->
+<script src="admins/js/jquery.js"></script>
+<script src="admins/js/bootstrap.min.js"></script>
+<script>
+    var code ; //在全局 定义验证码
+    $(function () {
+        createCode();
+    });
+    function createCode()
+    {
+        code = "";
+        var codeLength = 5;//验证码的长度
+        var checkCode = document.getElementById("checkCode");
+        var selectChar = new Array(1,2,3,4,5,6,7,8,9,'A','B','C','D','E','F','G','H','I','J','K','L','M','N','P','Q','R','S','T','U','V','W','X','Y','Z');//所有候选组成验证码的字符，当然也可以用中文的
+        for(var i=0;i<codeLength;i++)
+        {
+            var charIndex = Math.floor(Math.random()*34);
+            code +=selectChar[charIndex];
+        }
+        if(checkCode)
+        {
+            checkCode.className="code";
+            checkCode.value = code;
+            checkCode.blur();
+        }
+    }
+    function validate () {
+        var inputCode = document.getElementById("validCode").value;
+        if (inputCode.length <= 0) {
+            alert("请输入验证码！");
+            return false;
+        } else if (inputCode.toUpperCase() != code) {
+            alert("验证码输入错误！");
+            createCode();//刷新验证码
+            return false;
+        } else {
+            return true;
+        }
+    }
+    $("#form_login").submit(function () {
+        return validate();
+    });
+
+</script>
+
+</body>
+</html>

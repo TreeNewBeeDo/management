@@ -6,7 +6,7 @@
     <result column="status" property="status" jdbcType="INTEGER" />
     <result column="title" property="title" jdbcType="VARCHAR" />
     <result column="content" property="content" jdbcType="VARCHAR" />
-    <result column="total" property="total" jdbcType="VARCHAR" />
+    <result column="total" property="total" jdbcType="DOUBLE" />
     <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
     <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
     <result column="create_by" property="createBy" jdbcType="VARCHAR" />
@@ -112,7 +112,7 @@
       update_time, create_by, update_by, 
       remark)
     values (#{salaryId,jdbcType=INTEGER}, #{status,jdbcType=INTEGER}, #{title,jdbcType=VARCHAR}, 
-      #{content,jdbcType=VARCHAR}, #{total,jdbcType=VARCHAR}, #{createTime,jdbcType=TIMESTAMP}, 
+      #{content,jdbcType=VARCHAR}, #{total,jdbcType=DOUBLE}, #{createTime,jdbcType=TIMESTAMP}, 
       #{updateTime,jdbcType=TIMESTAMP}, #{createBy,jdbcType=VARCHAR}, #{updateBy,jdbcType=VARCHAR}, 
       #{remark,jdbcType=VARCHAR})
   </insert>
@@ -164,7 +164,7 @@
         #{content,jdbcType=VARCHAR},
       </if>
       <if test="total != null" >
-        #{total,jdbcType=VARCHAR},
+        #{total,jdbcType=DOUBLE},
       </if>
       <if test="createTime != null" >
         #{createTime,jdbcType=TIMESTAMP},
@@ -205,7 +205,7 @@
         content = #{record.content,jdbcType=VARCHAR},
       </if>
       <if test="record.total != null" >
-        total = #{record.total,jdbcType=VARCHAR},
+        total = #{record.total,jdbcType=DOUBLE},
       </if>
       <if test="record.createTime != null" >
         create_time = #{record.createTime,jdbcType=TIMESTAMP},
@@ -233,7 +233,7 @@
       status = #{record.status,jdbcType=INTEGER},
       title = #{record.title,jdbcType=VARCHAR},
       content = #{record.content,jdbcType=VARCHAR},
-      total = #{record.total,jdbcType=VARCHAR},
+      total = #{record.total,jdbcType=DOUBLE},
       create_time = #{record.createTime,jdbcType=TIMESTAMP},
       update_time = #{record.updateTime,jdbcType=TIMESTAMP},
       create_by = #{record.createBy,jdbcType=VARCHAR},
@@ -256,7 +256,7 @@
         content = #{content,jdbcType=VARCHAR},
       </if>
       <if test="total != null" >
-        total = #{total,jdbcType=VARCHAR},
+        total = #{total,jdbcType=DOUBLE},
       </if>
       <if test="createTime != null" >
         create_time = #{createTime,jdbcType=TIMESTAMP},
@@ -281,7 +281,7 @@
     set status = #{status,jdbcType=INTEGER},
       title = #{title,jdbcType=VARCHAR},
       content = #{content,jdbcType=VARCHAR},
-      total = #{total,jdbcType=VARCHAR},
+      total = #{total,jdbcType=DOUBLE},
       create_time = #{createTime,jdbcType=TIMESTAMP},
       update_time = #{updateTime,jdbcType=TIMESTAMP},
       create_by = #{createBy,jdbcType=VARCHAR},
