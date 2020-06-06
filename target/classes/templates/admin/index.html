@@ -234,7 +234,7 @@
                 <div class="col-lg-8">
                     <!--custom chart start-->
                     <div class="border-head">
-                        <h3>商品种类数量图</h3>
+                        <h3>工具种类数量图</h3>
                     </div>
                     <div class="custom-bar-chart">
                         <ul class="y-axis">
@@ -339,7 +339,7 @@
                     <section class="panel">
                         <div class="panel-body">
                             <a href="#" class="task-thumb">
-                                <img src="/admins/img/2222.jpg" width="40px" high="40px">
+                                <img src="/2222.jpg" width="40px" high="40px">
                             </a>
                             <div class="task-thumb-details">
                                 <h1><a href="#">用户展示</a></h1>
@@ -378,9 +378,14 @@
                     <section class="panel">
                         <div class="panel-body progress-panel">
                             <div class="task-progress">
-                                <h1>账单数目</h1>
+                                <h1>账单情况</h1>
                                 <p>账目类别及数量</p>
                             </div>
+                            <td>
+                                本月总收入：<span class="badge bg-important" th:text="${salaryIncome}">100000</span>元
+                                本月总支出：<span class="badge bg-important" th:text="${salaryPayout}">100000</span>元
+                                本月结余：<span class="badge bg-important" th:text="${balance}">100000</span>元
+                            </td>
                         </div>
                         <table class="table table-hover personal-task">
                             <tbody>

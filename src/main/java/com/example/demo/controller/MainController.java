@@ -101,12 +101,18 @@ public class MainController {
     @GetMapping("/adminIndex")
     @PreAuthorize("hasRole('ROLE_ADMIN')")
     public ModelAndView adminIndex(Model model){
+        double salaryIncome = salaryService.getSalaryIncome();
+        double salaryPayout = salaryService.getSalaryPayOut();
+        double balance = salaryIncome - salaryPayout;
         User user = userService.getUser();
         model.addAttribute("user",user);
         model.addAttribute("userCount",userService.getAdminList().size());
         model.addAttribute("categoryCount",categoryService.getCategoryList().size());
         model.addAttribute("worksCount",worksService.getWorksList().size());
         model.addAttribute("vehicleViewCount",vehicleOwnerService.getVehicleOwnerList().size());
+        model.addAttribute("salaryIncome",salaryIncome);
+        model.addAttribute("salaryPayout",salaryPayout);
+        model.addAttribute("balance",balance);
         //商品种类数量图
         List<Category> categories = categoryService.getCategoryList();
         List<Custom> categoryList = new ArrayList<>();

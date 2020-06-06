@@ -7,7 +7,7 @@
     <result column="car_card" property="carCard" jdbcType="VARCHAR" />
     <result column="vehicle_id" property="vehicleId" jdbcType="INTEGER" />
     <result column="driver" property="driver" jdbcType="VARCHAR" />
-    <result column="phone" property="phone" jdbcType="INTEGER" />
+    <result column="phone" property="phone" jdbcType="VARCHAR" />
     <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
     <result column="create_by" property="createBy" jdbcType="VARCHAR" />
     <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
@@ -115,7 +115,7 @@
       update_by, status, remark
       )
     values (#{carId,jdbcType=INTEGER}, #{carCategory,jdbcType=VARCHAR}, #{carCard,jdbcType=VARCHAR}, 
-      #{vehicleId,jdbcType=INTEGER}, #{driver,jdbcType=VARCHAR}, #{phone,jdbcType=INTEGER}, 
+      #{vehicleId,jdbcType=INTEGER}, #{driver,jdbcType=VARCHAR}, #{phone,jdbcType=VARCHAR}, 
       #{createTime,jdbcType=TIMESTAMP}, #{createBy,jdbcType=VARCHAR}, #{updateTime,jdbcType=TIMESTAMP}, 
       #{updateBy,jdbcType=VARCHAR}, #{status,jdbcType=INTEGER}, #{remark,jdbcType=VARCHAR}
       )
@@ -177,7 +177,7 @@
         #{driver,jdbcType=VARCHAR},
       </if>
       <if test="phone != null" >
-        #{phone,jdbcType=INTEGER},
+        #{phone,jdbcType=VARCHAR},
       </if>
       <if test="createTime != null" >
         #{createTime,jdbcType=TIMESTAMP},
@@ -224,7 +224,7 @@
         driver = #{record.driver,jdbcType=VARCHAR},
       </if>
       <if test="record.phone != null" >
-        phone = #{record.phone,jdbcType=INTEGER},
+        phone = #{record.phone,jdbcType=VARCHAR},
       </if>
       <if test="record.createTime != null" >
         create_time = #{record.createTime,jdbcType=TIMESTAMP},
@@ -256,7 +256,7 @@
       car_card = #{record.carCard,jdbcType=VARCHAR},
       vehicle_id = #{record.vehicleId,jdbcType=INTEGER},
       driver = #{record.driver,jdbcType=VARCHAR},
-      phone = #{record.phone,jdbcType=INTEGER},
+      phone = #{record.phone,jdbcType=VARCHAR},
       create_time = #{record.createTime,jdbcType=TIMESTAMP},
       create_by = #{record.createBy,jdbcType=VARCHAR},
       update_time = #{record.updateTime,jdbcType=TIMESTAMP},
@@ -283,7 +283,7 @@
         driver = #{driver,jdbcType=VARCHAR},
       </if>
       <if test="phone != null" >
-        phone = #{phone,jdbcType=INTEGER},
+        phone = #{phone,jdbcType=VARCHAR},
       </if>
       <if test="createTime != null" >
         create_time = #{createTime,jdbcType=TIMESTAMP},
@@ -312,7 +312,7 @@
       car_card = #{carCard,jdbcType=VARCHAR},
       vehicle_id = #{vehicleId,jdbcType=INTEGER},
       driver = #{driver,jdbcType=VARCHAR},
-      phone = #{phone,jdbcType=INTEGER},
+      phone = #{phone,jdbcType=VARCHAR},
       create_time = #{createTime,jdbcType=TIMESTAMP},
       create_by = #{createBy,jdbcType=VARCHAR},
       update_time = #{updateTime,jdbcType=TIMESTAMP},

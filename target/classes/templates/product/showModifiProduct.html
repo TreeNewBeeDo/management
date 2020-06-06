@@ -5,7 +5,7 @@
       xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4" xmlns:width="http://www.w3.org/1999/xhtml"
       xmlns:hight="http://www.w3.org/1999/xhtml">
 <head>
-    <link rel="shortcut icon" href="../admins/img/favicon.png">
+    <link rel="shortcut icon" href="/favicon.ico">
     <title>良 艺</title>
     <!-- Bootstrap core CSS -->
     <link href="../admins/css/bootstrap.min.css" rel="stylesheet">
@@ -170,7 +170,7 @@
             <!-- page start-->
             <section class="panel">
                 <header class="panel-heading">
-                    商品信息列表
+                    工具信息列表
                 </header>
                 <div class="panel-body">
                     <div class="adv-table editable-table ">
@@ -182,12 +182,12 @@
                                     <input type="hidden" name="productId" th:value="${productView.productId}">
                                     <thead>
                                     <tr>
-                                        <th><i class="fa fa-question-circle"></i> 商品种类</th>
+                                        <th><i class="fa fa-question-circle"></i> 工具种类</th>
                                         <td>
                                             <div class="form-group">
                                                 <select name="categoryId" class="form-control">
                                                     <div th:each="product:${productView}">
-                                                        <option th:value="${productView.categoryId}" th:text="${productView.categoryName}">请选择商品种类</option>
+                                                        <option th:value="${productView.categoryId}" th:text="${productView.categoryName}">请选择工具种类</option>
                                                     </div>
                                                     <div th:each="category:${categoryList}">
                                                         <option th:value="${category.categoryId}" th:text="${category.name}"></option>
@@ -198,11 +198,11 @@
                                         <td><div  style="width:300px"></div></td>
                                     </tr>
                                     <tr>
-                                        <th><i class="fa fa-bookmark"></i> 商品名称</th>
+                                        <th><i class="fa fa-bookmark"></i> 工具名称</th>
                                         <td>
                                             <div class="form-group">
                                                 <input type="text" th:value="${productView.productName}" class="form-control" id="productName"
-                                                       name="productName" placeholder="商品名称" required>
+                                                       name="productName" placeholder="工具名称" required>
                                             </div>
                                         </td>
                                         <td><div  style="width:300px"></div></td>
@@ -270,7 +270,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th><i class="fa fa-question-circle"></i>商品有效性</th>
+                                        <th><i class="fa fa-question-circle"></i>工具有效性</th>
                                         <td>
                                             <select name="isEffective" class="btn form-control " >
                                                 <div th:each="product:${productView}">

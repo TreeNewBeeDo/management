@@ -1,5 +1,6 @@
 package com.example.demo.controller;
 
+import com.example.demo.model.Salary;
 import com.example.demo.service.ISalaryService;
 import com.example.demo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -37,27 +38,19 @@ public class SalaryController {
     @RequestMapping("/list")
     @PreAuthorize("hasAnyRole('ROLE_ADMIN')")
     public ModelAndView getSalaryList(Model model){
+        double inCome = salaryService.getSalaryIncome();
+        double payOut = salaryService.getSalaryPayOut();
         List<Salary> salaryList = salaryService.getSalary();
         model.addAttribute("user",userService.getUser());
         model.addAttribute("salaryList",salaryList);
+        model.addAttribute("income",inCome);
+        model.addAttribute("payout",payOut);
         return new ModelAndView("/salary/salary");
     }
 
-//    /**
-//     * 获取支出账单
-//     * @param model
-//     * @return
-//     */
-//    @RequestMapping("/salarylist")
-//    @PreAuthorize("hasAnyRole('ROLE_ADMIN')")
-//    public ModelAndView getSalaryPayList(Model model){
-//        List<Salary> salaryList = salaryService.getSalary();
-//        model.addAttribute("user",userService);
-//        model.addAttribute("salaryList",salaryList);
-//        return new ModelAndView("/salary/salary");
-//    }
+
     /**
-     *
+     * 详细
      * @param salaryId
      * @param model
      * @return
@@ -72,7 +65,7 @@ public class SalaryController {
     }
 
     /**
-     *
+     * 添加
      * @param salary
      * @param flag
      * @param model
@@ -82,6 +75,8 @@ public class SalaryController {
     @PreAuthorize("hasAnyRole('ROLE_ADMIN')")
     public ModelAndView addSalary(Salary salary,String flag,  Model model){
         salary.setCreateTime(new Date());
+        salary.setUpdateTime(new Date());
+        salary.setUpdateBy(userService.getUser().getUsername());
         salary.setCreateBy(userService.getUser().getUsername());
         if (flag.equals("1")){
             model.addAttribute("user",userService.getUser());
@@ -93,7 +88,7 @@ public class SalaryController {
     }
 
     /**
-     *
+     * 修改
      * @param salary
      * @param flag
      * @param model
@@ -116,7 +111,7 @@ public class SalaryController {
     }
 
     /**
-     *
+     * 删除
      * @param salaryId
      * @param model
      * @return

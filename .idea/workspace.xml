@@ -2,665 +2,106 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aff222c0-b784-447e-b89b-7aace8670df4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../demo.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/config/SpringSecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/controller/AdminOrderController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/controller/CartController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/controller/CategoryController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/controller/MainController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/controller/OrderController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/controller/ProductController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/controller/ProductUserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/mapper/AuthorityMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/mapper/CartMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/mapper/CategoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/mapper/LogMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/mapper/OrderItemMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/mapper/OrderMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/mapper/ProductMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/mapper/ProductViewMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/mapper/UserAuthorityMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/mapper/UserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/Authority.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/AuthorityExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/Cart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/CartExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/Category.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/CategoryExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/Log.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/LogExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/Order.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/OrderExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/OrderItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/OrderItemExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/ProductExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/ProductOrderItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/ProductView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/ProductViewExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/UserAuthority.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/UserAuthorityExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/UserExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/custom/CartCustom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/model/custom/Custom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/service/AdminOrderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/service/AuthorityService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/service/CartService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/service/CategoryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/service/OrderItemService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/service/OrderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/service/ProductService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/service/ProductUserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/service/impl/AdminOrderServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/service/impl/AuthorityServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/service/impl/CartServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/service/impl/CategoryServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/service/impl/OrderItemServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/service/impl/OrderServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/service/impl/ProductServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/service/impl/ProductUserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/service/impl/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/utils/DateToString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/utils/FileUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/utils/MD5Util.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/utils/Msg.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/utils/UUIDUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/banner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/generator/generatorConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/mapping/AuthorityMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/mapping/CartMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/mapping/CategoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/mapping/LogMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/mapping/OrderItemMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/mapping/OrderMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/mapping/ProductMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/mapping/ProductViewMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/mapping/UserAuthorityMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/mapping/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/advanced-datatable/media/css/demo_page.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/advanced-datatable/media/css/demo_table.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/advanced-datatable/media/images/back_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/advanced-datatable/media/images/back_enabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/advanced-datatable/media/images/back_enabled_hover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/advanced-datatable/media/images/forward_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/advanced-datatable/media/images/forward_enabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/advanced-datatable/media/images/forward_enabled_hover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/advanced-datatable/media/images/sort_asc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/advanced-datatable/media/images/sort_asc_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/advanced-datatable/media/images/sort_both.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/advanced-datatable/media/images/sort_desc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/advanced-datatable/media/images/sort_desc_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/advanced-datatable/media/js/jquery.dataTables.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/bootstrap-colorpicker/css/colorpicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/bootstrap-colorpicker/img/alpha.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/bootstrap-colorpicker/img/hue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/bootstrap-colorpicker/img/saturation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/bootstrap-colorpicker/js/bootstrap-colorpicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/bootstrap-datepicker/css/datepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/bootstrap-datepicker/js/bootstrap-datepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/bootstrap-daterangepicker/date.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/bootstrap-daterangepicker/daterangepicker-bs3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/bootstrap-daterangepicker/daterangepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/bootstrap-daterangepicker/daterangepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/bootstrap-daterangepicker/moment.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/bootstrap-datetimepicker/css/datetimepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/bootstrap-fileupload/bootstrap-fileupload.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/bootstrap-fileupload/bootstrap-fileupload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/bootstrap-inputmask/bootstrap-inputmask.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/bootstrap-timepicker/compiled/timepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/bootstrap-timepicker/js/bootstrap-timepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/bootstrap-wysihtml5/bootstrap-wysihtml5.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/bootstrap-wysihtml5/bootstrap-wysihtml5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/bootstrap-wysihtml5/wysihtml5-0.3.0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/chart-master/Chart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/ckeditor/ckeditor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/data-tables/DT_bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/data-tables/DT_bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/data-tables/images/sort_asc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/data-tables/images/sort_both.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/data-tables/images/sort_desc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/data-tables/jquery.dataTables.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/dropzone/css/dropzone.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/dropzone/dropzone.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/dropzone/images/spritemap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/dropzone/images/spritemap@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/fancybox/source/blank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/fancybox/source/fancybox_loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/fancybox/source/fancybox_overlay.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/fancybox/source/fancybox_sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/fancybox/source/jquery.fancybox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/fancybox/source/jquery.fancybox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/file-uploader/css/jquery.fileupload-noscript.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/file-uploader/css/jquery.fileupload-ui-noscript.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/file-uploader/css/jquery.fileupload-ui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/file-uploader/css/jquery.fileupload.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/file-uploader/img/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/file-uploader/img/progressbar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/file-uploader/js/jquery.fileupload-audio.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/file-uploader/js/jquery.fileupload-image.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/file-uploader/js/jquery.fileupload-process.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/file-uploader/js/jquery.fileupload-ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/file-uploader/js/jquery.fileupload-validate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/file-uploader/js/jquery.fileupload-video.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/file-uploader/js/jquery.fileupload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/file-uploader/js/jquery.iframe-transport.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/file-uploader/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/file-uploader/js/vendor/jquery.ui.widget.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/flot/jquery.flot.crosshair.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/flot/jquery.flot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/flot/jquery.flot.pie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/flot/jquery.flot.resize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/flot/jquery.flot.stack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/font-awesome/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/fuelux/css/tree-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/fuelux/img/tree-icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/fuelux/js/spinner.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/fuelux/js/tree.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/fullcalendar/fullcalendar/bootstrap-fullcalendar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/fullcalendar/fullcalendar/fullcalendar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/gritter/css/jquery.gritter.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/gritter/images/gritter-light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/gritter/images/gritter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/gritter/images/ie-spacer.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/gritter/js/jquery.gritter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jcrop/css/Jcrop.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jcrop/css/jquery.Jcrop.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jcrop/js/jquery.Jcrop.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jcrop/js/jquery.color.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-file-upload/css/jquery.fileupload-ui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-file-upload/img/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-file-upload/img/progressbar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-file-upload/js/jquery.fileupload-fp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-file-upload/js/jquery.fileupload-ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-file-upload/js/jquery.fileupload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-file-upload/js/jquery.iframe-transport.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-file-upload/js/vendor/canvas-to-blob.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-file-upload/js/vendor/jquery.ui.widget.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-file-upload/js/vendor/load-image.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-file-upload/js/vendor/tmpl.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-knob/js/jquery.knob.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-multi-select/css/multi-select.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-multi-select/img/switch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-multi-select/js/jquery.multi-select.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-multi-select/js/jquery.quicksearch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-ui/images/animated-overlay.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-ui/images/ui-bg_diagonals-thick_18_b81900_40x40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-ui/images/ui-bg_diagonals-thick_20_666666_40x40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-ui/images/ui-bg_flat_10_000000_40x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-ui/images/ui-bg_glass_100_f6f6f6_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-ui/images/ui-bg_glass_100_fdf5ce_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-ui/images/ui-bg_glass_65_ffffff_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-ui/images/ui-bg_gloss-wave_35_f6a828_500x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-ui/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-ui/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-ui/images/ui-icons_222222_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-ui/images/ui-icons_228ef1_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-ui/images/ui-icons_ef8c08_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-ui/images/ui-icons_ffd27a_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-ui/images/ui-icons_ffffff_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-ui/jquery-ui-1.10.1.custom.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/jquery-ui/jquery-ui-1.10.1.custom.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/morris.js-0.4.3/morris.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/morris.js-0.4.3/morris.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/morris.js-0.4.3/raphael-min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/nestable/jquery.nestable.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/nestable/jquery.nestable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/summernote/dist/summernote.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/summernote/dist/summernote.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/toastr-master/toastr.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/toastr-master/toastr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/xchart/d3.v3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/xchart/xcharts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/assets/xchart/xcharts.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/css/bootstrap-reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/css/gallery.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/css/image-crop.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/css/invoice-print.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/css/jquery.steps.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/css/owl.carousel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/css/slidebars.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/css/soon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/css/style-responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/css/table-responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/css/tasks.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/css/validator.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/css/yamm.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/404_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/500_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/arrow-up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/avatar-mini.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/avatar-mini2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/avatar-mini3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/avatar-mini4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/avatar1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/avatar1_small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/blue-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/chart-texture.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/chat-attach.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/chat-avatar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/chat-avatar2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/chat-search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/checkCode.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/checkCode.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/checkbox/check-off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/checkbox/check-on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/checkbox/radio-off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/checkbox/radio-on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/customSelect-arrow.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/dark-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/email-img/banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/email-img/icon-cal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/email-img/icon-tel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/email-img/image1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/email-img/image2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/email-img/image3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/email-img/image4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/email-img/main-img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/email-img/social-facebook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/email-img/social-google.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/email-img/social-linkedin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/email-img/social-twitter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/email-img/social-youtube.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/email-img/vector-lab.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/fb-img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/file-search/ai.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/file-search/doc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/file-search/email.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/file-search/eps.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/file-search/jpg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/file-search/pdf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/file-search/ppt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/file-search/psd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/file-search/rss.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/file-search/xls.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/file-search/zip.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/flags/de.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/flags/es.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/flags/fr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/flags/ru.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/flags/us.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/follower-avatar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/gallery/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/gallery/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/gallery/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/gallery/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/gallery/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/gallery/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/green-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/input-spinner.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/left-arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/lock-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/mail-avatar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/mask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/mega-menu/corner_image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/mega-menu/mega-menu-images1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/mega-menu/mega-menu-images2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/mega-menu/mega-menu-images3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/mega-menu/mega-menu-images4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/mega-menu/mega-menu-images5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/mega-menu/mega-menu-images6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/mega_icon1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/mega_icon2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/mega_icon3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/mega_icon4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/nav-expand.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/photos/user1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/photos/user2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/photos/user3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/photos/user4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/photos/user5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/pro-ac-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/pro-ac-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/product-list/pro-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/product-list/pro-thumb-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/product-list/pro-thumb-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/product-list/pro-thumb-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/product-list/pro-thumb-big.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/product-list/pro1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/product-list/pro2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/product-list/pro3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/product1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/product2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/product3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/profile-avatar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/purple-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/right-arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/ring.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/search-icon-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/search-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/slider/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/sm-img-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/sm-img-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/sm-img-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/img/vector-lab.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/advanced-form-components.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/all-chartjs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/bootstrap-switch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/bootstrap-validator.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/common-scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/count.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/draggable-portlet.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/dynamic_table_init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/easy-pie-chart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/editable-table.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/external-dragging-calendar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/flot-chart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/form-component.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/form-image-crop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/form-validation-script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/ga.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/gmaps-scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/gmaps.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/gritter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/hover-dropdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/jquery-migrate-1.2.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/jquery-ui-1.9.2.custom.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/jquery.customSelect.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/jquery.dcjqaccordion.2.7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/jquery.nicescroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/jquery.pulsate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/jquery.scrollTo.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/jquery.sparkline.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/jquery.steps.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/jquery.stepy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/jquery.tagsinput.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/jquery.ui.touch-punch.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/modernizr.custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/morris-script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/nestable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/owl.carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/pulstate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/respond.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/slidebars.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/sliders.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/soon/custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/soon/plugins.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/sparkline-chart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/tasks.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/toucheffects.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/admins/js/tree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/portrait/profile.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/00f619b4c20d43239d3bc3a82babc8b7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/0b488fe7dc7642ad90e328088e124c5d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/0bb02573ad0c4882a68c897f8021e1c0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/156213ff1b794308b9d9484759c14141.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/1636a57453074f1b8beacb5743a2020b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/1efae4add16a40c1b0333d5d3b478c5a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/1fb823593b0f417fad63680189c61181.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/2434a8ad553b48829e7ddb0c0bc64df0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/2afbb8e90b51452b920a4acfc69369ab.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/2d8937ae08ac454783d83493144adbde.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/37be03a9c22c44d8ba92f83cecaf68c9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/38178c9dad4b4a72aecfea03cd6418ab.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/40acf2ae3ca54a7db689334d881939f8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/433a1736f7644567a8476c13299182fd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/46e291e3c78f446084d53fd7f50305fe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/4c3dd481f2f34d3e90888efcc057d978.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/5bc4ccf000fc401ab9f2def82a68952c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/6ec4885fedb743238745917d07e2a885.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/7d8ed6795c1f44668b1ed23909bf2a66.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/8265009008ca448eb5c827a4e08528ee.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/97b157c81e0f439a90e249b26d671d10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/a2b9dd81a9b34f23ad6b8c3667dc2f2e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/a7435e15a9db416faaa6320c4b241068.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/a846bbd3f8ea42d3ac9825e70f7e827f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/b1b4bb1248e447a796ff89fb342c7282.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/b9051c7f19d245afa814361212bd6bbf.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/ba7bfd804bac47908f53bb3c270a0136.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/c191e0ba2af9452fb4b4d20608fc63f9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/c5e78cead025415c8638044643bf0296.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/c7d23f3b5a604ef3a9233982ac7daf65.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/d0024747f9ce429788887a61edeef2b7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/d5afa3192e6946e68834fe125a47b953.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/dc45bfbb2a324650b8b6645c77a7d3b6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/ddc6bd50d9d7499e966a8b8fc645914c.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/df154a7f41984758b1568447c7f9381d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/e267605a5306406dbbeb14c18b607550.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/e3bf782957bb4451a5aeff45c5c85f40.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/ebd0c30956b24ea5b4bc007195688627.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/ec874ec38270481f9763dfc6d5eabe15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/ed3f28dd6c9e447384430e4d0b32b122.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/f5cd61ed964140d896a811cb8431c247.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/fec7c22a78594a87a5d97a5ba072cab9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/update/product/ff462e831c3c44829816f7165a10f113.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/css/cart.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/5c_80.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/MIX-80.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/banner2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/compare.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/ghs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/gwc_xiaomi6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/hjh_01.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/hjh_02.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/hjh_03.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/hjh_04.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/hjh_05.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/hjh_06.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/hm4-80.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/hm4A-80.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/hm4x_80.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/hmn4x80.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/hmnote4-80.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/hongmi4x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/hongmin4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/liebiao_hongmin4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/liebiao_hongmin42.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/liebiao_hongmin4_dd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/liebiao_hongmin4x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/liebiao_xiaomi5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/liebiao_xiaomi5c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/liebiao_xiaomi5s.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/liebiao_xiaomi6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/liebiao_xiaomimix.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/liebiao_xiaomint2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/liulangengduo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/login_bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/logo_foot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/logo_top.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/mimobile.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/mistore_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/peijian1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/peijian10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/peijian2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/peijian3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/peijian4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/peijian5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/peijian6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/peijian7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/peijian8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/peijian9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/pinghengche.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/pinpai1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/pinpai2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/pinpai3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/pinpai4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/pinpai5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/xiaomi5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/xm5-80.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/xm5S-80.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/xm5Splus.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/xm6_80.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/xmNOTE2-80.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/xmad_14926862610682_UhkfS.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/yanzhengma.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/image/yyymix.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/css/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/css/buyConfirm.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/css/checkOut.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/css/public.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/+.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/-.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/LR_lunbo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/add_cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/back_top.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/ban_next_24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/ban_pre_24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/bottom_img01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/bottom_img02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/bottom_img03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/bottom_img04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/bottom_img05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/bottom_img06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/bottom_img07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/bottom_img08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/bottom_img09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/c.imgloading.312342643ad87085c2b962218229a968.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/cart_countdown.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/fixed_weixin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/floor_img10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/goods_img02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/goods_img03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/header_sprites1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/icon_dou.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/icon_sina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/icon_tencent.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/icon_weixin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/index.supermarket.seckilling.bg-l-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/index.supermarket.seckilling.bg-m-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/index.supermarket.seckilling.bg-r-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/index_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/index_icons1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/meishi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/panic-text.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/promise_img01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/promise_img02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/promise_img03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/promise_img04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/promise_img05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/shopping_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/slogan.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/top_phone_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/weixin_big.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/weixin_big.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/xhw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/yck.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/yes_ok.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/zfb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/images/zxzf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/js/address_all.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/js/base.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/js/buyConfirm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/js/checkout.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/js/demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/js/html5shiv-min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/js/jquery-1.11.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/js/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/js/jquery_cart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/js/tuan.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/static/users/jQueryGwc/js/unslider.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/admin/adminList.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/admin/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/admin/order/askReturnOrder.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/admin/order/completeOrder.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/admin/order/newOrder.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/admin/order/orderInfo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/admin/order/returnedOrder.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/admin/order/seekOrder.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/admin/order/shippedOrder.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/admin/profile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/admin/profileEdit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/admin/userList.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/cart/ct.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/category/Category.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/category/showAddCategory.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/category/showModifiCategory.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/error/400.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/error/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/error/500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/order/addOrder1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/order/addOrderByProduct.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/order/addOrderSuccess.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/order/applyReturn.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/order/confirmOrderSuccess.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/order/differentOrders.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/order/orderCenter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/order/orderDetails.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/order/returnOrderSuccess.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/order/zeroOrder.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/product/Product.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/product/ProductDetails.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/product/productinfo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/product/productlist.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/product/showAddProduct.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/product/showModifiProduct.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/user/userEdit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/user/userInfo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/templates/userLogin.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_5_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/update/portrait/4e64d55b72944cbabe94d0afea7beafa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/update/portrait/cf485250f1994492a243a54a58838dc1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/update/portrait/e5af2f19943f48358eb5870352dfdc96.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/update/product/0757580bf1694432a9c13ecf335f15ee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/update/product/1947daf11fdf4410a4d3ae89da40c3b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/update/product/c1622cea3db34bea98ad696ab6fbf7df.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/EmployeeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/ProductUserController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/SalaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/SalaryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/model/Salary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/model/Salary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/model/SalaryExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/model/SalaryExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/service/ISalaryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/service/ISalaryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/WorksController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/WorksController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/model/Cars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/model/Cars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/model/CarsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/model/CarsExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/service/impl/SalaryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/service/impl/SalaryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/SalaryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/SalaryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/users/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/users/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/adminList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/adminList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/CarsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/CarsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/admins/img/2222.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/admins/img/favicon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userLogin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/users/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/users/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/adminList.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/adminList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/profileEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/profileEdit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/userList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/userList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/category/Category.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/category/Category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/category/showAddCategory.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/category/showAddCategory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/category/showModifiCategory.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/category/showModifiCategory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/client/addCars.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/client/addCars.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/client/addVehicleOwner.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/client/addVehicleOwner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/client/cars.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/client/cars.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/client/modifiCars.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/client/modifiCars.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/client/modifiVehicleOwner.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/client/modifiVehicleOwner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/client/vehicleOwner.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/client/vehicleOwner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/employee/addEmployee.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/employee/addEmployee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/employee/addGrade.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/employee/addGrade.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/employee/employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/employee/employee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/employee/employeeDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/employee/employeeDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/employee/employeeGrade.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/employee/employeeGrade.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/employee/gradeDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/employee/gradeDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/employee/modifEmployee.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/employee/modifEmployee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/employee/modifiGrade.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/employee/modifiGrade.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product/Product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product/Product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product/productinfo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product/productlist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product/showAddProduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product/showAddProduct.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product/showModifiProduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product/showModifiProduct.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/salary/addSalary.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/salary/addSalary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/salary/modifiSalary.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/salary/modifiSalary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/salary/salary.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/salary/salary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/salary/salaryDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/salary/salaryDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/works/addWorks.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/works/addWorks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/works/modifiWorks.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/works/modifiWorks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/works/worksDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/works/worksDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generator/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/generator/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapping/CarsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapping/CarsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapping/SalaryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapping/SalaryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/admins/img/2222.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/userLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/userLogin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/profileEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/profileEdit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/userList.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/userList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/category/Category.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/category/Category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/category/showAddCategory.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/category/showAddCategory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/category/showModifiCategory.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/category/showModifiCategory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/client/addCars.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/client/addCars.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/client/addVehicleOwner.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/client/addVehicleOwner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/client/cars.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/client/cars.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/client/modifiCars.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/client/modifiCars.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/client/modifiVehicleOwner.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/client/modifiVehicleOwner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/client/vehicleOwner.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/client/vehicleOwner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/employee/addEmployee.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/employee/addEmployee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/employee/addGrade.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/employee/addGrade.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/employee/employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/employee/employee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/employee/employeeDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/employee/employeeDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/employee/employeeGrade.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/employee/employeeGrade.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/employee/gradeDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/employee/gradeDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/employee/modifEmployee.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/employee/modifEmployee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/employee/modifiGrade.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/employee/modifiGrade.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/product/Product.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/product/Product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/product/productinfo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/product/productlist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/product/showAddProduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/product/showAddProduct.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/product/showModifiProduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/product/showModifiProduct.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/salary/addSalary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/salary/addSalary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/salary/modifiSalary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/salary/modifiSalary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/salary/salary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/salary/salary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/salary/salaryDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/salary/salaryDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/works/addWorks.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/works/addWorks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/works/modifiWorks.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/works/modifiWorks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/works/worksDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/works/worksDetail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -680,6 +121,9 @@
     <setting file="file://$PROJECT_DIR$/src/main/java/com/example/demo/service/impl/VehicleOwnerServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/resources/templates/login.html" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
   <component name="ProjectId" id="1anTETRE3aruyE5fIwl2QII1mHY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -698,10 +142,11 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -759,8 +204,26 @@
       <workItem from="1589092292605" duration="2351000" />
       <workItem from="1589241369230" duration="12818000" />
       <workItem from="1589271032228" duration="1867000" />
-      <workItem from="1589279187055" duration="12850000" />
+      <workItem from="1589279187055" duration="19119000" />
+      <workItem from="1589798070683" duration="32000" />
+      <workItem from="1589798131696" duration="10393000" />
+      <workItem from="1589891157309" duration="1272000" />
+      <workItem from="1589934963533" duration="15519000" />
+      <workItem from="1590202535437" duration="1504000" />
+      <workItem from="1590207267002" duration="1898000" />
+      <workItem from="1590259801907" duration="1987000" />
+      <workItem from="1590457531910" duration="2348000" />
+      <workItem from="1590995649587" duration="262000" />
+      <workItem from="1591323755427" duration="5018000" />
     </task>
+    <task id="LOCAL-00001" summary="登录主页面更改&#10;取消验证码&#10;即将对salary进行修改">
+      <created>1589344017006</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589344017006</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -768,8 +231,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="登录主页面更改&#10;取消验证码&#10;即将对salary进行修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="登录主页面更改&#10;取消验证码&#10;即将对salary进行修改" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="586" y="203" key="#Inspections" timestamp="1589357490540">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="586" y="203" key="#Inspections/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1589357490540" />
     <state x="361" y="75" key="#Notifications" timestamp="1587783417208">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -791,16 +260,17 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="449" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.834@0.0.1536.834" timestamp="1587393303025" />
-    <state x="624" y="205" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589340573574">
+    <state x="624" y="205" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591325387361">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="-1296" y="205" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1920.1050/0.0.1920.1050@-1920.0.1920.1050" timestamp="1589250088579" />
-    <state x="624" y="205" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1589340573574" />
+    <state x="624" y="205" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1589858020130" />
     <state x="499" y="163" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1588385950400" />
-    <state x="465" y="13" width="941" height="867" key="CommitChangelistDialog2" timestamp="1589268203256">
+    <state x="624" y="205" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1591325387361" />
+    <state x="465" y="13" width="941" height="867" key="CommitChangelistDialog2" timestamp="1589344008746">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="465" y="13" width="941" height="867" key="CommitChangelistDialog2/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1589268203256" />
+    <state x="465" y="13" width="941" height="867" key="CommitChangelistDialog2/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1589344008746" />
     <state x="372" y="10" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1587783524997" />
     <state x="-86" y="112" width="1350" height="648" key="DiffContextDialog" timestamp="1587805470139">
       <screen x="0" y="0" width="1536" height="834" />
@@ -811,80 +281,86 @@
     </state>
     <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1588040140776" />
     <state x="686" y="215" width="652" height="491" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1589093160705" />
-    <state width="1877" height="501" key="GridCell.Tab.0.bottom" timestamp="1589340611789">
+    <state width="1877" height="501" key="GridCell.Tab.0.bottom" timestamp="1591409835612">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="123" key="GridCell.Tab.0.bottom/-1920.0.1920.1050/0.0.1920.1050@-1920.0.1920.1050" timestamp="1589251956061" />
-    <state width="1877" height="501" key="GridCell.Tab.0.bottom/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1589340611789" />
+    <state width="1877" height="218" key="GridCell.Tab.0.bottom/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1590471606904" />
     <state width="1493" height="137" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1588508408230" />
-    <state width="1877" height="185" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1589095844594" />
-    <state width="1877" height="501" key="GridCell.Tab.0.center" timestamp="1589340611789">
+    <state width="1877" height="501" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1591409835612" />
+    <state width="1877" height="501" key="GridCell.Tab.0.center" timestamp="1591409835612">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="123" key="GridCell.Tab.0.center/-1920.0.1920.1050/0.0.1920.1050@-1920.0.1920.1050" timestamp="1589251956061" />
-    <state width="1877" height="501" key="GridCell.Tab.0.center/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1589340611789" />
+    <state width="1877" height="218" key="GridCell.Tab.0.center/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1590471606904" />
     <state width="1493" height="137" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1588508408230" />
-    <state width="1877" height="185" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1589095844594" />
-    <state width="1877" height="501" key="GridCell.Tab.0.left" timestamp="1589340611789">
+    <state width="1877" height="501" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1591409835612" />
+    <state width="1877" height="501" key="GridCell.Tab.0.left" timestamp="1591409835612">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="123" key="GridCell.Tab.0.left/-1920.0.1920.1050/0.0.1920.1050@-1920.0.1920.1050" timestamp="1589251956061" />
-    <state width="1877" height="501" key="GridCell.Tab.0.left/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1589340611789" />
+    <state width="1877" height="218" key="GridCell.Tab.0.left/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1590471606904" />
     <state width="1493" height="137" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1588508408230" />
-    <state width="1877" height="185" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1589095844594" />
-    <state width="1877" height="501" key="GridCell.Tab.0.right" timestamp="1589340611789">
+    <state width="1877" height="501" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1591409835612" />
+    <state width="1877" height="501" key="GridCell.Tab.0.right" timestamp="1591409835612">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="123" key="GridCell.Tab.0.right/-1920.0.1920.1050/0.0.1920.1050@-1920.0.1920.1050" timestamp="1589251956061" />
-    <state width="1877" height="501" key="GridCell.Tab.0.right/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1589340611789" />
+    <state width="1877" height="218" key="GridCell.Tab.0.right/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1590471606904" />
     <state width="1493" height="137" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1588508408230" />
-    <state width="1877" height="185" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1589095844594" />
-    <state width="1877" height="59" key="GridCell.Tab.1.bottom" timestamp="1589338314091">
+    <state width="1877" height="501" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1591409835612" />
+    <state width="1877" height="92" key="GridCell.Tab.1.bottom" timestamp="1591409804373">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="123" key="GridCell.Tab.1.bottom/-1920.0.1920.1050/0.0.1920.1050@-1920.0.1920.1050" timestamp="1589251956063" />
-    <state width="1877" height="59" key="GridCell.Tab.1.bottom/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1589338314091" />
+    <state width="1877" height="218" key="GridCell.Tab.1.bottom/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1590471606904" />
     <state width="1493" height="137" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1588508408230" />
-    <state width="1877" height="185" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1589095844594" />
-    <state width="1877" height="59" key="GridCell.Tab.1.center" timestamp="1589338314091">
+    <state width="1877" height="92" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1591409804373" />
+    <state width="1877" height="92" key="GridCell.Tab.1.center" timestamp="1591409804373">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="123" key="GridCell.Tab.1.center/-1920.0.1920.1050/0.0.1920.1050@-1920.0.1920.1050" timestamp="1589251956063" />
-    <state width="1877" height="59" key="GridCell.Tab.1.center/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1589338314091" />
+    <state width="1877" height="218" key="GridCell.Tab.1.center/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1590471606904" />
     <state width="1493" height="137" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1588508408230" />
-    <state width="1877" height="185" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1589095844594" />
-    <state width="1877" height="59" key="GridCell.Tab.1.left" timestamp="1589338314091">
+    <state width="1877" height="92" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1591409804373" />
+    <state width="1877" height="92" key="GridCell.Tab.1.left" timestamp="1591409804373">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="123" key="GridCell.Tab.1.left/-1920.0.1920.1050/0.0.1920.1050@-1920.0.1920.1050" timestamp="1589251956061" />
-    <state width="1877" height="59" key="GridCell.Tab.1.left/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1589338314091" />
+    <state width="1877" height="218" key="GridCell.Tab.1.left/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1590471606904" />
     <state width="1493" height="137" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1588508408230" />
-    <state width="1877" height="185" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1589095844594" />
-    <state width="1877" height="59" key="GridCell.Tab.1.right" timestamp="1589338314091">
+    <state width="1877" height="92" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1591409804373" />
+    <state width="1877" height="92" key="GridCell.Tab.1.right" timestamp="1591409804373">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="123" key="GridCell.Tab.1.right/-1920.0.1920.1050/0.0.1920.1050@-1920.0.1920.1050" timestamp="1589251956063" />
-    <state width="1877" height="59" key="GridCell.Tab.1.right/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1589338314091" />
+    <state width="1877" height="218" key="GridCell.Tab.1.right/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1590471606904" />
     <state width="1493" height="137" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1588508408230" />
-    <state width="1877" height="185" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1589095844594" />
+    <state width="1877" height="92" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1591409804373" />
+    <state x="540" y="267" key="IDE.errors.dialog" timestamp="1589965487561">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="540" y="267" key="IDE.errors.dialog/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1589965487561" />
     <state x="299" y="72" key="Maven.ArtifactSearchDialog" timestamp="1587393207672">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="299" y="72" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1587393207672" />
-    <state x="498" y="160" key="SettingsEditor" timestamp="1589093185165">
+    <state x="498" y="160" key="SettingsEditor" timestamp="1590207244599">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="498" y="160" key="SettingsEditor/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1590207244599" />
     <state x="270" y="59" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1588041038680" />
     <state x="498" y="160" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1589093185165" />
     <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1589267740856">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="257" key="Vcs.Push.Dialog.v2/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1589267740856" />
-    <state x="703" y="421" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589343915229">
+    <state x="703" y="421" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591409894889">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="703" y="421" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1589343915229" />
     <state x="562" y="334" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1587783453394" />
+    <state x="703" y="421" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1591409894889" />
     <state x="555" y="208" key="git4idea.merge.GitPullDialog" timestamp="1587783483283">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -901,13 +377,16 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="598" y="303" width="628" height="477" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1589093162174" />
-    <state x="425" y="189" key="run.anything.popup" timestamp="1587794751941">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="531" y="238" key="run.anything.popup" timestamp="1590471404013">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="531" y="238" key="run.anything.popup/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1590471404013" />
     <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1587794751941" />
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1588388692989">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="539" y="195" width="840" height="854" key="search.everywhere.popup" timestamp="1591324203851">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="539" y="195" width="840" height="854" key="search.everywhere.popup/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1590471434741" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1588388692989" />
+    <state x="539" y="195" width="840" height="854" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1591324203851" />
   </component>
 </project>

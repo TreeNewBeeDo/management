@@ -78,6 +78,8 @@ public class EmployeeController {
     @PreAuthorize("hasRole('ROLE_ADMIN')")
     public ModelAndView addEmployee(Employee employee, String flag, Model model) {
         model.addAttribute("user",userService.getUser());
+        employee.setUpdateTime(new Date());
+        employee.setUpdateBy(userService.getUser().getUsername());
         employee.setCreateTime(new Date());
         employee.setCreateBy(userService.getUser().getUsername());
         if (flag.equals("1")){
@@ -138,6 +140,7 @@ public class EmployeeController {
         List<GradeView> gradeViewList = gradeService.getGradeList();
 //        model.addAttribute("employee",employeeService.findByEmployeeId())
         model.addAttribute("gradeViewList",gradeViewList);
+//        System.out.println(gradeViewList.size());
         model.addAttribute("user",userService.getUser());
         return new ModelAndView("/employee/employeeGrade");
     }
@@ -155,6 +158,8 @@ public class EmployeeController {
         List<Employee> employeeList = employeeService.getEmployeeList();
         model.addAttribute("employeeList",employeeList);
         model.addAttribute("user",userService.getUser());
+        grade.setUpdateTime(new Date());
+        grade.setUpdateBy(userService.getUser().getUsername());
         grade.setCreateBy(userService.getUser().getUsername());
         grade.setCreateTime(new Date());
         if (flag.equals("1")){
@@ -176,6 +181,7 @@ public class EmployeeController {
     public ModelAndView gradeDetailById(Model model, Integer gradeId){
         model.addAttribute("user",userService.getUser());
         model.addAttribute("gradeView",gradeService.findGradeById(gradeId));
+//        System.out.println(gradeService.findGradeById(gradeId).getUpdateTime());
         return new ModelAndView("/employee/gradeDetail");
     }
 
@@ -213,7 +219,7 @@ public class EmployeeController {
     public ModelAndView removeGradeById(Model model, Integer gradeId){
         model.addAttribute("user",userService.getUser());
         model.addAttribute("grade",gradeService.removeGradeById(gradeId));
-        return new ModelAndView("/employee/employeeGrade");
+        return new ModelAndView("redirect:/employee/gradelist");
     }
 
 }

@@ -35,7 +35,7 @@ public class ClientController {
     private IVehicleOwnerService vehicleOwnerService;
 
     /**
-     * 获取列表
+     * 获取车辆列表
      * @param model
      * @return
      */

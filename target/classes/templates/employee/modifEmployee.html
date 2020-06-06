@@ -6,7 +6,7 @@
       xmlns:hight="http://www.w3.org/1999/xhtml">
 <head>
 
-    <link rel="shortcut icon" href="../admins/img/favicon.png">
+    <link rel="shortcut icon" href="/favicon.ico">
     <link rel="stylesheet" type="text/css" href="../admins/css/validator.css">
     <title>良艺</title>
 
@@ -198,9 +198,12 @@
                                         <th><i class="fa fa-bookmark"></i>性别</th>
                                         <td>
                                             <div class="form-group">
-                                                <input type="text" th:value="${employee.employeeName}" class="form-control" id="employeeName"
-                                                       name="employeeName" placeholder="员工姓名" required>
-                                            </div>
+                                                <select name="status" class="btn form-control" >
+                                                    <option th:if="${employee.sex}=='1'" th:text="男" value="1"></option>
+                                                    <option th:if="${employee.sex}=='0'" th:text="女" value="0"></option>
+                                                    <option value="1">男</option>
+                                                    <option value="0">女</option>
+                                                </select>
                                         </td>
                                     </tr>
                                     <tr>

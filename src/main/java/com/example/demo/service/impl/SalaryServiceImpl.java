@@ -1,5 +1,6 @@
 package com.example.demo.service.impl;
 
+import cn.hutool.core.date.DateUtil;
 import com.example.demo.mapper.SalaryMapper;
 import com.example.demo.model.Salary;
 import com.example.demo.model.SalaryExample;
@@ -7,6 +8,7 @@ import com.example.demo.service.ISalaryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -43,9 +45,12 @@ public class SalaryServiceImpl implements ISalaryService {
     @Override
     public double getSalaryIncome() {
         double salaryIncome = 0;
+        Date time1 = DateUtil.beginOfMonth(new Date());
+        Date time2 = DateUtil.endOfMonth(new Date());
         SalaryExample salaryExample = new SalaryExample();
         SalaryExample.Criteria criteria = salaryExample.createCriteria();
         criteria.andStatusEqualTo(1);
+        criteria.andUpdateTimeBetween(time1,time2);
         List<Salary> salaryList = salaryMapper.selectByExample(salaryExample);
         for (Salary salary : salaryList){
             salaryIncome += salary.getTotal();
@@ -59,7 +64,26 @@ public class SalaryServiceImpl implements ISalaryService {
      */
     @Override
     public double getSalaryPayOut() {
-        return 0;
+        double salaryPayout = 0;
+        Date time1 = DateUtil.beginOfMonth(new Date());
+        Date time2 = DateUtil.endOfMonth(new Date());
+//        String time1 = DateUtil.beginOfMonth(new Date()).toStringDefaultTimeZone();
+//        String time2 = DateUtil.endOfMonth(new Date()).toStringDefaultTimeZone();
+        SalaryExample salaryExample = new SalaryExample();
+        SalaryExample.Criteria criteria = salaryExample.createCriteria();
+        criteria.andStatusEqualTo(0);
+        criteria.andUpdateTimeBetween(time1,time2);
+        List<Salary> salaryList = salaryMapper.selectByExample(salaryExample);
+        if (salaryList.size()==0){
+            System.out.println("列表为空");
+        }else {
+            for (Salary salary : salaryList){
+                salaryPayout += salary.getTotal();
+//                System.out.println(salary.getTotal());
+            }
+        }
+//        System.out.println(salaryPayout);
+        return salaryPayout;
     }
 
     /**
